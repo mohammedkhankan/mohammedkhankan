@@ -14,7 +14,7 @@ I build SaaS products and internal business systems, and I stay with them after 
 | --- | --- | --- |
 | [**RUKN**](https://mohammedkhankan.github.io/khankan-portfolio/en/projects/rukn/) · ركن | Multi-merchant e-commerce SaaS. Each store gets its own isolated data. | 10 stores onboarded in the first launch |
 | [**OFOQ Restaurant OS**](https://mohammedkhankan.github.io/khankan-portfolio/en/projects/ofoq/) · أفق | Tables, orders, waiters, cashier, kitchen stations and reservations in one system, with a [public digital menu](https://menu.ofoqsy.com/). | Running in 7 restaurants (trial) |
-| [**MAAZEEM**](https://mohammedkhankan.github.io/khankan-portfolio/en/projects/maazeem/) · معازيم | Multi-tenant platform for invitations, guest lists, RSVP and QR check-in. | 52/52 tests on an isolated PostgreSQL · 10,000 guests imported in 1.84 s |
+| [**MAAZEEM**](https://mohammedkhankan.github.io/khankan-portfolio/en/projects/maazeem/) · معازيم | Multi-tenant platform for invitations, guest lists, RSVP and QR check-in. | Used for real events |
 | [**RAFD**](https://rafd6.netlify.app/) · رفد | Supplementary learning platform for Syrian Virtual University students, plus the internal finance system behind it. | 2,000+ subscribers · 700+ videos |
 | [**AL TAYF Architecture**](https://altayf-sa.com/) | Company website for an architecture firm in Saudi Arabia. | Live |
 
