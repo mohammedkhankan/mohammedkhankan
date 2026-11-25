@@ -1,72 +1,44 @@
-<div align="center">
+## Mohammed Khankan
 
-# Mohammed Khankan
+Founder & CEO of **OFOQ Technical Solutions & Digitalization** and **RAFD**. Software engineer, based in Saudi Arabia.
 
-### Founder & CEO · Software Engineer · SaaS Product Builder
+I build SaaS products and internal business systems, and I stay with them after launch: onboarding the first customers, fixing what breaks under real use, and shipping the next version.
 
-**Building practical digital products and business systems — from idea to deployment.**
+[Portfolio & case studies](https://mohammedkhankan.github.io/khankan-portfolio/en/) · [LinkedIn](https://www.linkedin.com/in/mohammed-tarek-533a2a214/) · [Email](mailto:engmohammedkhankan@gmail.com) · [WhatsApp](https://wa.me/966510371924)
 
-[LinkedIn](https://www.linkedin.com/in/mohammed-tarek-533a2a214/) · [GitHub](https://github.com/mohammedkhankan) · [WhatsApp](https://wa.me/966510371924)
+---
+
+### Products
+
+| Product | What it is | Where it stands |
+| --- | --- | --- |
+| [**RUKN**](https://mohammedkhankan.github.io/khankan-portfolio/en/projects/rukn/) · ركن | Multi-merchant e-commerce SaaS. Each store gets its own isolated data. | 10 stores onboarded in the first launch |
+| [**OFOQ Restaurant OS**](https://mohammedkhankan.github.io/khankan-portfolio/en/projects/ofoq/) · أفق | Tables, orders, waiters, cashier, kitchen stations and reservations in one system, with a [public digital menu](https://menu.ofoqsy.com/). | Running in 7 restaurants (trial) |
+| [**MAAZEEM**](https://mohammedkhankan.github.io/khankan-portfolio/en/projects/maazeem/) · معازيم | Multi-tenant platform for invitations, guest lists, RSVP and QR check-in. | 52/52 tests on an isolated PostgreSQL · 10,000 guests imported in 1.84 s |
+| [**RAFD**](https://rafd6.netlify.app/) · رفد | Supplementary learning platform for Syrian Virtual University students, plus the internal finance system behind it. | 2,000+ subscribers · 700+ videos |
+| [**AL TAYF Architecture**](https://altayf-sa.com/) | Company website for an architecture firm in Saudi Arabia. | Live |
+
+Product source code is private. The case studies cover the problem, the decisions, the test results and screenshots.
+
+### A few things I've had to get right
+
+- **Tenant isolation.** RUKN keys every store's data to its tenant, and the rule lives in the data-access layer instead of depending on each screen to remember it.
+- **Concurrency at the door.** MAAZEEM check-in is a single conditional `UPDATE` backed by a `CHECK` constraint. In testing, 30 simultaneous scans on a 5-guest invitation admitted exactly 5.
+- **Messy imports.** 10,000 guests from Excel in 1.84 s, handling Arabic-Indic digits and invisible characters, catching duplicates, and keeping plan limits under concurrent requests.
+- **Roles that match the job.** OFOQ has separate views for owner, cashier, waiter and kitchen.
+
+### Stack
+
+Varies by product. Recent work:
+
+- **RUKN:** ASP.NET Core (.NET 10), EF Core, React, TypeScript, PostgreSQL, Docker
+- **OFOQ:** Next.js, React, TypeScript, Prisma, PostgreSQL, Supabase Auth, Docker
+- **MAAZEEM:** Next.js, TypeScript, Drizzle ORM, PostgreSQL 17, Zod, Docker Compose
+
+---
+
+<div dir="rtl">
+
+مؤسس ومدير تنفيذي لـ**شركة أفق للحلول التقنية والرقمنة** ولـ**منصة رفد التعليمية**. أبني منتجات SaaS وأنظمة أعمال داخلية، وأتابعها بعد الإطلاق مع العملاء الأوائل. دراسات الحالة بالعربي على [موقعي](https://mohammedkhankan.github.io/khankan-portfolio/ar/).
 
 </div>
-
----
-
-## About me
-
-I'm Mohammed Khankan, a software engineer and the founder and CEO of **OFOQ Digital Solutions** (*أفق للحلول الرقمية والرقمنة*) and **RAFD Educational Platform**.
-
-My work connects **product strategy, software engineering, and real business operations**. I build and lead digital products from problem discovery and planning through architecture, development, testing, deployment, and continuous improvement.
-
-Based in Saudi Arabia, I'm particularly interested in making capable, affordable digital tools more accessible to businesses, including those in Syria.
-
-> **My approach:** Understand the problem first. Build secure, efficient, maintainable solutions without unnecessary complexity.
-
-## Selected projects
-
-| Project | What it does | Focus |
-| --- | --- | --- |
-| **RUKN · ركن** | SaaS platform for building and managing online stores | E-commerce · Multi-tenant SaaS |
-| **OFOQ Restaurant OS · أفق** | Connects restaurant menus, tables, waiters, cashiers, kitchen stations, and reservations | Restaurant operations |
-| **MAAZEEM · معازيم** | Platform for digital invitations, event guests, invitation delivery, and guest check-in | Events · SaaS |
-| **RAFD · رفد** | Educational platform connecting students' learning needs with academic expertise | EdTech · Product leadership |
-| **RAFD Financial System** | Internal financial and operational reporting system for the RAFD team | Business systems |
-| **AL TAYF · الطيف المعمارية** | Corporate website built around an architectural company's work and identity | Web development · UX · SEO |
-
-**Public websites:** [AL TAYF](https://altayf-sa.com/) · [OFOQ Restaurant Menu](https://menu.ofoqsy.com/)
-
-Some product source repositories are private. Public case studies and updated project visuals will be linked here as they become available.
-
-## Engineering interests
-
-- **Product engineering:** SaaS platforms, business workflows, full-stack applications
-- **Backend & data:** API design, PostgreSQL, transaction safety, access control, multi-tenant systems
-- **Frontend & experience:** React, Next.js, TypeScript, responsive interfaces
-- **Infrastructure:** Docker, deployment, performance optimization, resource efficiency
-- **Product leadership:** Requirements discovery, system planning, testing, iteration
-
-Technology choices vary by project; I prioritize fit, maintainability, security, and operating cost.
-
-## How I work
-
-```text
-Understand the business
-        ↓
-Design the product and workflows
-        ↓
-Build the system and user experience
-        ↓
-Test critical and real-world scenarios
-        ↓
-Deploy, learn, and improve
-```
-
-## Connect
-
-- **LinkedIn:** [Mohammed Khankan](https://www.linkedin.com/in/mohammed-tarek-533a2a214/)
-- **GitHub:** [@mohammedkhankan](https://github.com/mohammedkhankan)
-- **WhatsApp:** [Get in touch](https://wa.me/966510371924)
-
----
-
-<div align="center"><sub>Focused on software that makes real work easier.</sub></div>
