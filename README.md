@@ -2,7 +2,7 @@
 
 Founder & CEO of **OFOQ Technical Solutions & Digitalization** and **RAFD**. Software engineer, based in Saudi Arabia.
 
-I build SaaS products and internal business systems, and I stay with them after launch: onboarding the first customers, fixing what breaks under real use, and shipping the next version.
+I build web and mobile apps, operating systems for businesses, and SaaS platforms, and I stay with them after launch: onboarding the first customers, fixing what breaks under real use, and shipping the next version.
 
 [Portfolio & case studies](https://mohammedkhankan.github.io/khankan-portfolio/en/) · [LinkedIn](https://www.linkedin.com/in/mohammed-tarek-533a2a214/) · [Email](mailto:engmohammedkhankan@gmail.com) · [WhatsApp](https://wa.me/966510371924)
 
@@ -39,6 +39,6 @@ Varies by product. Recent work:
 
 <div dir="rtl">
 
-مؤسس ومدير تنفيذي لـ**شركة أفق للحلول التقنية والرقمنة** ولـ**منصة رفد التعليمية**. أبني منتجات SaaS وأنظمة أعمال داخلية، وأتابعها بعد الإطلاق مع العملاء الأوائل. دراسات الحالة بالعربي على [موقعي](https://mohammedkhankan.github.io/khankan-portfolio/ar/).
+مؤسس ومدير تنفيذي لـ**شركة أفق للحلول التقنية والرقمنة** ولـ**منصة رفد التعليمية**. أبني تطبيقات ويب وجوال، وأنظمة تشغيل وإدارة للشركات، ومنصات SaaS، وأتابعها بعد الإطلاق مع العملاء الأوائل. دراسات الحالة بالعربي على [موقعي](https://mohammedkhankan.github.io/khankan-portfolio/ar/).
 
 </div>
